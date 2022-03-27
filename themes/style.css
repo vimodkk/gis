@@ -1,0 +1,58 @@
+/* CSS Document */
+
+#head {
+    color: #000000;
+    font-size: 22px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 30px 0 0 36px;
+    font-weight: normal;
+}
+
+body {
+    margin: 10px auto;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 0 0 1em;
+}
+
+.msg_list {
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+}
+
+.msg_head {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    background-color: #dddddd;
+    margin: 1px;
+}
+
+.msg_body {
+    padding: 5px 15px 15px;
+    background-color: #F4F4F8;
+}
+
+A:link {
+    COLOR: midnightblue;
+    CURSOR: hand;
+    TEXT-DECORATION: none;
+    line-height: 22px;
+}
+
+A:Visited {
+    COLOR: midnightblue;
+    CURSOR: hand;
+    TEXT-DECORATION: none;
+    line-height: 20px;
+}
+
+.clsEngLabel {
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 22px;
+    font-weight: bold;
+    color: #006600;
+}
