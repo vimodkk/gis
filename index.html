@@ -22,6 +22,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         function hideURLbar() {
             window.scrollTo(0, 1);
         }
+		//location hash direct position
+		if(window.location.hash){
+			scroll(0,0);
+			setTimeout(function() {
+				scroll(0,0);				
+			},1);
+			if(window.location.hash){
+				$("html,body").animate(){
+					scroll: $(window.location.hash)offset().top+'contact'
+				}
+			}
+		}
     </script>
 	
 	<!-- css files -->
